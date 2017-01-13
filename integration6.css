@@ -1,0 +1,127 @@
+.container {display:flex}
+
+.colonne1 {background-color:#2a2a2a;
+           width:30%;
+           display:flex;
+           flex-direction:column;
+           /*justify-content:center;*/
+
+         }
+
+
+h1 {text-align:center;
+    color:white;
+    justify-content: center;}
+
+h.sub {color:white;
+      opacity:0.5;
+    justify-content: center;
+ text-align: center;
+      font-size: 12px;}
+
+.images {
+  padding-top: 50px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.images img { 
+   overflow: hidden;
+   -webkit-border-radius:70px;
+   -moz-border-radius:70px;
+   border-radius:70px;
+   width:100px;
+   height: 100px;
+   margin: 0 3%;
+}
+
+
+
+/*
+Début barre de navigation (en-tête)
+*/
+
+ul.nav{
+list-style-type: none;
+text-align:center;
+font-size:14px;
+justify-content: center;
+  
+}
+
+
+ul li{
+  font-weight:bold;
+  color : white;}
+
+
+ul li:hover{
+  background-color:#2980b9;
+  width:100%;
+  height:100%;
+  color:white;
+}
+
+/*colonne 2*/
+
+.colonne2 {
+    color:#333333;
+    width:1200px;
+    display:flex;
+    flex-direction:column;}
+
+.IM {align-items: center;
+     width: 900px;
+     height:400px;
+    margin:30px;}
+
+
+h2 {font-size:32px;
+text-align:center;}
+
+.A {font-size:12px;
+    text-align:center;}
+
+.B {text-align:center;
+    font-size:10px;}
+
+p {font-size:12px;}
+
+hr {font-size: 2px grey;}
+
+.S {color:blue;
+text-decoration: underline}
+
+.border {border :2px grey;
+border-width:2px;
+justify-content:center;}
+
+.Txt {border-bottom: 1px solid black;
+      width:900px;
+      margin:30px;}
+
+.Pha {width: 500px;
+     text-align:center;
+     justify-content: center;
+    margin-left:250px;}
+
+.Phb {display:flex;
+      position:columns;
+      text-align:center;
+      border-right:1px solid;
+      width:50px;}
+
+.Phc {/*display:flex;*/
+      position:columns;
+     border-bottom:1px solid;
+    }
+
+.Phd {display:flex;
+      }
+
+h5 {font-size:15px;}
+
+h6 {font-size:15px;}
+
+p.agenda {font-size:12px;}
